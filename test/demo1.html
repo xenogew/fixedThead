@@ -10,7 +10,7 @@
 	<div class="tool-bar">
 		<h1>静态表格调用</h1>
 		<pre><!--
-			--><span class="code">$('#table1').fixedThead({height: 300});</span><span class="code-note">// 此处为方便演示，表格高度限为300<!--
+			--><span class="code">$('#table1').fixedThead({height: 300});</span><span class="code-note"></span><!-- // 此处为方便演示，表格高度限为300
 		--></pre>
 	</div>
 	<div class="box">
@@ -25,14 +25,14 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>全国总计</td>
+					<td class="cat">全国总计</td>
 					<td>7341517</td>
 					<td>82296.63</td>
 					<td>14735.51</td>
 				</tr>
 				<tr>
-					<td>北京</td>
-					<td>34293</td>
+					<td id="dog">北京</td>
+					<td><input type="text" id="maxout" class="someone" value="34293"></td>
 					<td>1665.43</td>
 					<td>241.40</td>
 				</tr>
